@@ -1,0 +1,108 @@
+transformer:
+  spec:
+    lm: 3.0e-05
+    ip_pk: 5.92278207834858
+    vp: 40.0
+    fs: 250000.0
+    d_max: 0.49
+    vsec_main: 32.7
+    pin: 90.47586206896551
+    delta_i: 2.6133333333333337
+    b_sat: 0.25
+    topology: flyback
+    turns_ratio_list:
+    - 1.0
+    - 0.8508673469387756
+    - 0.3044387755102041
+    kl_list:
+    - 1.0
+    - 0.9970272124399726
+    - 0.002972787560027441
+  repo:
+    filepath: data\core_data.xls
+    sheet_name: Sheet1
+  core:
+    core:
+      core_area: 5.8e-05
+      al_value: 2.2e-06
+      window_area: 6.789e-05
+      winding_width: 0.0167
+      winding_height: 0.0025
+      name: EFD25
+      core_type: TYPE  EFD  CORE
+wire:
+  wire_spec:
+    irms_list:
+    - 3.3374646034895763
+    - 3.8305475056640232
+    - 0.03426407172497635
+    ji_list:
+    - 12000000.0
+    - 12000000.0
+    - 12000000.0
+    pi_list:
+    - 2.0
+    - 3.0
+    - 1.0
+    spi_list:
+    - 4.0
+    - 4.0
+    - 2.0
+    ni_list:
+    - 13.0
+    - 12.0
+    - 4.0
+    lt: 8.0
+    wb: 0.0167
+    hb: 0.0025
+  wire_result:
+    status: optimal
+    di_list:
+    - 0.00025
+    - 0.00019
+    - 0.0001
+    li_list:
+    - 1.0
+    - 1.0
+    - 1.0
+    j_cal_list:
+    - 8498783.824633578
+    - 11258551.620955849
+    - 2181318.5541940923
+    fill_rate_list:
+    - 0.8718562874251499
+    - 0.6323353293413174
+    - 0.062275449101796415
+    height_required: 0.00175
+    method: ector_discrete
+  wire_advanced:
+    insulator_thickness: 3.0e-05
+    khb: 0.8
+    kwb: 0.1
+    ht: 5.0e-05
+    kf: 0.2
+    Aw: 6.789e-05
+    method: ector_discrete
+circuit:
+  spec:
+    vin_dc_min: 40.0
+    vin_dc_max: 57.0
+    vin_ac_min: null
+    vin_ac_max: null
+    efficiency: 0.87
+    lm: 3.0e-05
+    fs: 250000.0
+    d_max: 0.49
+    vro: null
+    vo_list:
+    - 32.0
+    - 11.0
+    vf_list:
+    - 0.7
+    - 0.7
+    io_list:
+    - 2.4
+    - 0.02
+    turns_ratio_list: null
+    topology: flyback
+    mode: CCM
